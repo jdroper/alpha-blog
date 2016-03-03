@@ -6,7 +6,7 @@ This is First Project using Udemy Complete Ruby on Rail Development
 Things you may want to cover:
 
 * Ruby version
-
+Ruby 2.2.1p85 (02-26-2015)
 * System dependencies
 
 * Configuration
