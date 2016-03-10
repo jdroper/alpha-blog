@@ -8,6 +8,10 @@
         </div>
         <div class="article-body">
           <%= truncate(a.description, lenght: 100) %>
+          <div class="article-meta-details">
+            <small>Created by: <%= a.user.username if a.user_id %>
+            </small>
+          </div>
         </div>
         <div class="article-actions">
           <%= link_to "Edit this article", edit_article_path(a),
